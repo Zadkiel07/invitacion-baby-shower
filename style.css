@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  padding: 30px;
+  background: #f2f6fa;
+  font-family: 'Georgia', serif;
+  display: flex;
+  justify-content: center;
+}
+
+/* MARCO */
+.marco {
+  padding: 22px;
+  border-radius: 35px;
+  background-color: #b9dff5;
+  background-image: radial-gradient(white 2px, transparent 2px);
+  background-size: 18px 18px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.18);
+}
+
+/* TARJETA */
+#invitacion {
+  background: #ffffff;
+  width: 340px;
+  padding: 35px 22px 30px;
+  border-radius: 25px;
+  text-align: center;
+  position: relative; /* IMPORTANTE */
+}
+
+/* DECORACIÓN DISPERSA */
+.decoracion-dispersa span {
+  position: absolute;
+  font-size: 22px;
+  opacity: 0.85;
+}
+
+/* POSICIONES */
+.d1 { top: 10px; left: 20px; }
+.d2 { top: 5px; right: 30px; }
+.d3 { top: 40px; left: 60px; }
+.d4 { top: 35px; right: 70px; }
+.d5 { top: 15px; left: 50%; transform: translateX(-50%); }
+
+/* CONTENIDO */
+.bebe-img {
+  width: 120px;
+  margin-bottom: 10px;
+}
+
+.texto-superior {
+  color: #555;
+  margin-bottom: 8px;
+}
+
+h1 {
+  color: #3f6fa0;
+  letter-spacing: 2px;
+  margin: 5px 0;
+}
+
+h2 {
+  color: #1f3f66;
+  letter-spacing: 3px;
+  margin: 15px 0;
+}
+
+/* CONTADOR */
+.contador {
+  background: #f1f6fb;
+  padding: 15px;
+  border-radius: 15px;
+  margin: 20px 0;
+}
+
+.contador-titulo {
+  color: #6b8fb8;
+  margin-bottom: 5px;
+}
+
+#cuentaRegresiva {
+  font-weight: bold;
+  color: #3f6fa0;
+  font-size: 15px;
+}
+
+/* INFO */
+.info p {
+  margin: 6px 0;
+  color: #444;
+}
+
+.mensaje {
+  margin-top: 15px;
+  font-style: italic;
+  color: #666;
+}
+
+.btn-mapa {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 18px;
+  background: #9fd3ff;
+  color: #1c3f66;
+  border-radius: 14px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.btn-mapa:hover {
+  background: #8cc7f0;
+}
