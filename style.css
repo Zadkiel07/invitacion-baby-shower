@@ -110,3 +110,41 @@ h2 {
 .btn-mapa:hover {
   background: #8cc7f0;
 }
+
+/* RSVP */
+.rsvp {
+  margin-top: 20px;
+  padding: 15px;
+  background: #f1f6fb;
+  border-radius: 15px;
+}
+
+.rsvp-titulo {
+  margin-bottom: 10px;
+  color: #3f6fa0;
+  font-weight: bold;
+}
+
+.rsvp input {
+  width: 90%;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.rsvp button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 14px;
+  background: #4a90e2;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.rsvp button:hover {
+  background: #3a7bc8;
+}
